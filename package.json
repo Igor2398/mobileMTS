@@ -1,0 +1,50 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@fortawesome/react-native-fontawesome": "^0.2.6",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "^5.8.7",
+    "@react-navigation/stack": "^5.12.4",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "expo": "^39.0.5",
+    "expo-notifications": "~0.7.2",
+    "expo-permissions": "~9.3.0",
+    "expo-server-sdk": "^3.6.0",
+    "expo-status-bar": "~1.0.2",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "mysql": "^2.18.1",
+    "node-cron": "^2.0.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-my-sql-connection": "^1.0.4",
+    "react-native-push-notification": "^7.0.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "~2.10.1",
+    "react-native-svg": "^12.1.0",
+    "react-native-web": "~0.13.12",
+    "react-navigation": "^4.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}
